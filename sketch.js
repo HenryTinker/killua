@@ -36,6 +36,7 @@ function setup(){
 
     bird = new Bird(100,100);
 
+    kenma = new Box(380,150,70,100);
 }
 
 function draw(){
@@ -58,6 +59,8 @@ function draw(){
     box5.display();
     log4.display();
     log5.display();
+
+    kenma.display();
 
     bird.display();
     platform.display();
